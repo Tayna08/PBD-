@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\controllers\\despesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:controllers\\despesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\models\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:models\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\dtos\\receitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:dtos\\receitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\dtos\\despesadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:dtos\\despesadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\datacontexts\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:datacontexts\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\dtos\\receitaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:dtos\\receitaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|c:\\users\\2024102060004\\downloads\\api-financeiro-envio\\apifinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{204A8825-AEAE-47F9-AE59-49CAA70D2E38}|ApiFinanceiro.csproj|solutionrelative:apifinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DespesaDto.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\DespesaDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DespesaDto.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\DespesaDto.cs",
+              "RelativeToolTip": "Dtos\\DespesaDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DespesaController.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Controllers\\DespesaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DespesaController.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Controllers\\DespesaController.cs",
+              "RelativeToolTip": "Controllers\\DespesaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContex.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\DataContexts\\AppDbContex.cs",
+              "RelativeDocumentMoniker": "DataContexts\\AppDbContex.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\DataContexts\\AppDbContex.cs",
+              "RelativeToolTip": "DataContexts\\AppDbContex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Receita.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Models\\Receita.cs",
+              "RelativeDocumentMoniker": "Models\\Receita.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Models\\Receita.cs",
+              "RelativeToolTip": "Models\\Receita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T23:17:24.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReceitaDto.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\ReceitaDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ReceitaDto.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\ReceitaDto.cs",
+              "RelativeToolTip": "Dtos\\ReceitaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiFinanceiro.csproj",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\ApiFinanceiro.csproj",
+              "RelativeDocumentMoniker": "ApiFinanceiro.csproj",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\ApiFinanceiro.csproj",
+              "RelativeToolTip": "ApiFinanceiro.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T23:17:24.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Despesa.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Models\\Despesa.cs",
+              "RelativeDocumentMoniker": "Models\\Despesa.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Models\\Despesa.cs",
+              "RelativeToolTip": "Models\\Despesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DespesaUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\DespesaUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DespesaUpdateDto.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\DespesaUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\DespesaUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReceitaUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\ReceitaUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ReceitaUpdateDto.cs",
+              "ToolTip": "C:\\Users\\2024102060004\\Downloads\\api-financeiro-envio\\Dtos\\ReceitaUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\ReceitaUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:17:24.827Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

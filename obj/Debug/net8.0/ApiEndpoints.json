@@ -1,0 +1,170 @@
+[
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.PrincipalController",
+    "Method": "Get",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "FindAll",
+    "RelativePath": "despesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Create",
+    "RelativePath": "despesas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaDespesa",
+        "Type": "ApiFinanceiro.Dtos.DespesaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "FindById",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Update",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "despesaDto",
+        "Type": "ApiFinanceiro.Dtos.DespesaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Remove",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.ReceitaController",
+    "Method": "FindAll",
+    "RelativePath": "receitas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.ReceitaController",
+    "Method": "Create",
+    "RelativePath": "receitas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaReceita",
+        "Type": "ApiFinanceiro.Dtos.ReceitaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.ReceitaController",
+    "Method": "FindById",
+    "RelativePath": "receitas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.ReceitaController",
+    "Method": "Update",
+    "RelativePath": "receitas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "receitaDto",
+        "Type": "ApiFinanceiro.Dtos.ReceitaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.ReceitaController",
+    "Method": "Remove",
+    "RelativePath": "receitas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

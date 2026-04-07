@@ -1,0 +1,424 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ApiFinanceiro",
+    "version": "1.0"
+  },
+  "paths": {
+    "/despesas": {
+      "get": {
+        "tags": [
+          "Despesa"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Despesa"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/despesas/{id}": {
+      "get": {
+        "tags": [
+          "Despesa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Despesa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DespesaUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Despesa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "Principal"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/receitas": {
+      "get": {
+        "tags": [
+          "Receita"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Receita"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/receitas/{id}": {
+      "get": {
+        "tags": [
+          "Receita"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Receita"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReceitaUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Receita"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DespesaDto": {
+        "required": [
+          "categoria",
+          "dataVencimento",
+          "descricao",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "minLength": 5,
+            "type": "string"
+          },
+          "categoria": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "valor": {
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          },
+          "dataVencimento": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DespesaUpdateDto": {
+        "required": [
+          "categoria",
+          "dataPagamento",
+          "dataVencimento",
+          "descricao",
+          "situacao",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "minLength": 5,
+            "type": "string"
+          },
+          "categoria": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "valor": {
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          },
+          "dataVencimento": {
+            "type": "string",
+            "format": "date"
+          },
+          "situacao": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dataPagamento": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReceitaDto": {
+        "required": [
+          "categoria",
+          "dataPrevisao",
+          "descricao",
+          "situacao",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "minLength": 5,
+            "type": "string"
+          },
+          "categoria": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "valor": {
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          },
+          "dataPrevisao": {
+            "type": "string",
+            "format": "date"
+          },
+          "observacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "situacao": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReceitaUpdateDto": {
+        "required": [
+          "categoria",
+          "dataPrevisao",
+          "descricao",
+          "situacao",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "minLength": 5,
+            "type": "string"
+          },
+          "categoria": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "valor": {
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          },
+          "dataPrevisao": {
+            "type": "string",
+            "format": "date"
+          },
+          "observacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "situacao": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dataRecebimento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
