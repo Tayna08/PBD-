@@ -272,7 +272,7 @@
     "schemas": {
       "DespesaDto": {
         "required": [
-          "categoria",
+          "categoriaId",
           "dataVencimento",
           "descricao",
           "valor"
@@ -283,9 +283,9 @@
             "minLength": 5,
             "type": "string"
           },
-          "categoria": {
-            "minLength": 1,
-            "type": "string"
+          "categoriaId": {
+            "type": "integer",
+            "format": "int32"
           },
           "valor": {
             "minimum": 0,01,
@@ -301,7 +301,7 @@
       },
       "DespesaUpdateDto": {
         "required": [
-          "categoria",
+          "categoriaId",
           "dataPagamento",
           "dataVencimento",
           "descricao",
@@ -314,9 +314,9 @@
             "minLength": 5,
             "type": "string"
           },
-          "categoria": {
-            "minLength": 1,
-            "type": "string"
+          "categoriaId": {
+            "type": "integer",
+            "format": "int32"
           },
           "valor": {
             "minimum": 0,01,

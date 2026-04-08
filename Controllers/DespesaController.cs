@@ -28,6 +28,7 @@ namespace ApiFinanceiro.Controllers
             try
             {
                 var despesas = await _service.FindAll();
+
                 return Ok(despesas);
             }
             catch (Exception e)
